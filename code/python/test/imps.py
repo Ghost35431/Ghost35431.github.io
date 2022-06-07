@@ -5,13 +5,13 @@ import pygame
 import math
 
 class consol:
-  def echo(temp):
-    _input = "echo" + temp
-    os.system(_input)
+  def echo(temp): os.system("echo " + temp)
   pi = math.pi
+  #bash apt install
+  def apt(pkg): os.system('apt install ' + pkg)
+  def clear(): os.system('clear()')
 
-def test(argsv):
-  echo(args)
+def test(argsv): echo(args)
 
 def main():
-  print("testing testing")
+  consol.echo('testing')
