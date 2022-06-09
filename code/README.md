@@ -1,11 +1,11 @@
-#random code progects
+# random code progects
 
-##Python
+## Python
 
-##C++
+## C++
 
-##NodeJS
+## NodeJS
 
-##Bash
+## Bash
 
-##Other
+## Other
