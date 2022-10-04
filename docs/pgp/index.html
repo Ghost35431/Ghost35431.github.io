@@ -5,9 +5,17 @@
         <meta name="keywords" content="pgp, gnupg, openpgp, code, public key"/>
         <meta name="author" content="Mylz McCullough"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <styles>
+            .unselectable {
+                -webkit-user-select: none;  /* Chrome all / Safari all */
+                -moz-user-select: none;     /* Firefox all */
+                -ms-user-select: none;      /* IE 10+ */
+                user-select: none;          /* Likely future */       
+            }
+        </styles>
     </head>
     <body>
-        The following is my public pgp key for use in sending me encrypted messages, and for verifying and decrypting messages from me.<br /><br />
+        <dir class="unselectable">The following is my public pgp key for use in sending me encrypted messages, and for verifying and decrypting messages from me.<br /><br /></dir>
         <pre><code>
         -----BEGIN PGP PUBLIC KEY BLOCK-----
         Version: Keybase OpenPGP v2.0.76
